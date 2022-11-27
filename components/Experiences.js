@@ -1,4 +1,4 @@
-export default function Experiences(){
+export default function Experiences() {
   return (
     <div className="">
       <h3 className="">Dernière expérience professionnelle</h3>
@@ -14,4 +14,4 @@ export default function Experiences(){
       <p>Management d'une équipe de quatre personnes</p>
     </div>
   );
-};
+}

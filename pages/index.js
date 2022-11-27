@@ -4,7 +4,6 @@ import styles from "../styles/Home.module.css";
 import Link from "next/link";
 // import DateTime from "../components/DateTime";  #TODO --> Error message "hydratation"
 
-
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -14,8 +13,14 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       {/* <DateTime /> */}
-      <p>Hi! I'm Maxime, a new web developer. Here is my website where i practice my programming skills like learning react and it's framework Next.js!</p>
-      <p><Link href="/resume">Here</Link> you can see my resume to learn more things about me and my hobbies</p>
+      <p>
+        Hi! I m Maxime, a new web developer. Here is my website where i practice
+        my programming skills like learning react and it's framework Next.js!
+      </p>
+      <p>
+        <Link href="/resume">Here</Link> you can see my resume to learn more
+        things about me and my hobbies
+      </p>
     </div>
   );
 }
