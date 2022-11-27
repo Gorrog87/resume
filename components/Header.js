@@ -1,4 +1,16 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+  // // Light:
+  // <FontAwesomeIcon icon={["fal", "coffee"]} />
+  // // Regular:
+  // <FontAwesomeIcon icon={["far", "coffee"]} />
+  // // Solid
+  // <FontAwesomeIcon icon={["fas", "coffee"]} />
+  // // ...or, omit as FontAwesome defaults to solid, so no need to prefix:
+  // <FontAwesomeIcon icon="coffee" />
+  // // Brand:
+  // <FontAwesomeIcon icon={["fab", "github"]} />
+
 
 
 export default function Header() {
@@ -26,7 +38,7 @@ export default function Header() {
               target="_blank"
               className=""
               id=""
-            ><FontAwesomeIcon icon="fab fa-github-square" /></a>
+            ></a>
             <a
               href="https://www.linkedin.com/in/maxime-gourgues/"
               rel="noreferrer"

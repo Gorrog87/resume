@@ -9,7 +9,7 @@ import Experiences from "../components/Experiences";
 export default function Resume() {
   return (
     <>
-        <p className="text-right mr-5">
+        <p className="text-right mr-5 mt-5">
           <Link href="/">Back to homepage</Link>
         </p>
       <div className="background-resume m-5">
@@ -20,7 +20,7 @@ export default function Resume() {
         <Languages />
         <Experiences />
       </div>
-        <p className="text-left ml-5">
+        <p className="text-left ml-5 mb-5">
           <Link href="/">Back to homepage</Link>
         </p>
     </>
