@@ -3,14 +3,14 @@ export default function Header() {
     <>
       <div className="">
         <div className="">
-          {/* <img
+          <img
             className=""
             id="picture"
             src="https://avatars.githubusercontent.com/u/88392395?v=4"
             alt="Maxime Gourgues"
             width="180"
             height="180"
-          /> */}
+          />
         </div>
 
         <div className="">
