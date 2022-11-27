@@ -19,7 +19,7 @@ export default function Formation() {
           </a>
           <p>
             <span className="">OpenClassrooms</span> - en alternance :
-            Concepteur / Développeur d&apos;applications web JavaScript / ReactJs
+            Concepteur / Développeur d'applications web JavaScript / ReactJs
           </p>
         </div>
         <div className="">

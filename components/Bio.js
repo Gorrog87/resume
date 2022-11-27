@@ -7,11 +7,11 @@ export default function Bio() {
           <i>
             {" "}
             Bonjour et bienvenue sur mon site web ! <br></br>
-            <br></br>Je m&apos;appelle Maxime, j&apos;ai 35 ans, et après plusieurs années
+            <br></br>Je m'appelle Maxime, j'ai 35 ans, et après plusieurs années
             passées dans le commerce (retail), je me suis réorienté vers la
             programmation informatique.<br></br>
             <br></br>
-            J&apos;ai commencé à m&apos;entraîner régulièrement et à passer les
+            J'ai commencé à m'entraîner régulièrement et à passer les
             certifications de{" "}
             <strong>
               <a
@@ -23,7 +23,7 @@ export default function Bio() {
               </a>
             </strong>{" "}
             en 2021, en parallèle de mon emploi à temps plein.<br></br> Puis
-            j&apos;ai décidé de concrétiser ce projet en intégrant le bootcamp du{" "}
+            j'ai décidé de concrétiser ce projet en intégrant le bootcamp du{" "}
             <strong>
               <a
                 href="https://www.lewagon.com/fr"
@@ -100,14 +100,14 @@ export default function Bio() {
                 target="_blank"
                 rel="noreferrer"
               >
-                Concepteur Développeur d&apos;applications
+                Concepteur Développeur d'applications
               </a>{" "}
               (Bac+3/4)
             </strong>
-            ), et depuis mars, je m&apos;entraîne quotidiennement, et, dans le même
-            temps, je recherche activement une entreprise afin d&apos;intégrer la
+            ), et depuis mars, je m'entraîne quotidiennement, et, dans le même
+            temps, je recherche activement une entreprise afin d'intégrer la
             formation en alternance (Titre Professionnel Concepteur-Développeur
-            d’Applications Niveau 6 (équivalent Bac+3/4), de l’école{" "}
+            d’Applications Niveau 6 (équivalent Bac+3/4)), de l’école{" "}
             <strong>
               <a
                 href="https://openclassrooms.com/fr/"
@@ -117,14 +117,14 @@ export default function Bio() {
                 OpenClassrooms
               </a>
             </strong>
-            , dès que j&apos;aurai signé un contrat avec une entreprise (2022).
+            , dès que j'aurai signé un contrat avec une entreprise (2022).
             <br></br>
             <br></br> Je suis ouvert aux opportunités sur la région{" "}
             <strong>lyonnaise</strong> <space></space>
             principalement, mais également en région <strong>parisienne</strong>
             .<br></br> Si vous êtes à la recherche d’un{" "}
             <strong>alternant</strong> très motivé, impliqué et avec une grande
-            soif d’apprendre, n&apos;hésitez pas à me <space></space>
+            soif d’apprendre, n'hésitez pas à me <space></space>
             <strong>
               <a href="mailto:gourguesmaxime@gmail.com">contacter</a>
             </strong>{" "}

@@ -14,7 +14,7 @@ export default function Home() {
       </Head>
       {/* <DateTime /> */}
       <p>
-        Hi! I m Maxime, a new web developer. Here is my website where i practice
+        Hi! I'm Maxime, a new web developer. Here is my website where i practice
         my programming skills like learning react and it's framework Next.js!
       </p>
       <p>
