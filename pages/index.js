@@ -16,12 +16,13 @@ export default function Home() {
       {/* <DateTime /> */}
       <div className="text-center mt-20 text-2xl">
         <p>
-          Hi! I'm Maxime, a new web developer.<br></br> 
-          Here is my website where i
-          practice my programming skills like learning the React library and it's framework
-          Next.js!<br></br>
-          <Link href="/resume"><abbr>Here</abbr></Link> you can see my resume to learn more
-          things about me and my hobbies!
+          Hi! I'm Maxime, a new web developer.<br></br>
+          Here is my website where i practice my programming skills like
+          learning the React library and it's framework Next.js!<br></br>
+          <Link href="/resume">
+            <abbr>Here</abbr>
+          </Link>{" "}
+          you can see my resume to learn more things about me and my hobbies!
         </p>
       </div>
     </div>

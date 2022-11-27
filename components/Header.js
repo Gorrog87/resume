@@ -1,7 +1,10 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
+
 export default function Header() {
   return (
     <>
-      <div className="text-center my-5 md:flex md:items-center md:justify-center">
+      <div className="text-center my-5 md:flex md:items-center md:justify-center pt-5">
         <div className="flex justify-center">
           <img
             className="rounded"
@@ -23,7 +26,7 @@ export default function Header() {
               target="_blank"
               className=""
               id=""
-            ></a>
+            ><FontAwesomeIcon icon="fab fa-github-square" /></a>
             <a
               href="https://www.linkedin.com/in/maxime-gourgues/"
               rel="noreferrer"
