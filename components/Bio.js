@@ -1,8 +1,8 @@
 export default function Bio() {
   return (
     <>
-      <div className="">
-        <h4 className="">A propos</h4>
+      <div className="text-center mb-20">
+        <h4 className="my-20"><strong>A propos</strong></h4>
         <q>
           <i>
             {" "}

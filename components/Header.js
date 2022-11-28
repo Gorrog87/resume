@@ -19,7 +19,7 @@ export default function Header() {
       <div className="text-center my-5 md:flex md:items-center md:justify-center pt-5">
         <div className="flex justify-center">
           <img
-            className="rounded"
+            className="rounded mr-5"
             id="picture"
             src="https://avatars.githubusercontent.com/u/88392395?v=4"
             alt="Maxime Gourgues"
@@ -29,8 +29,8 @@ export default function Header() {
         </div>
 
         <div className="">
-          <h1>Maxime Gourgues</h1>
-          <h4 className="md:ml-4">Développeur frontend junior</h4>
+          <h1><strong>Maxime Gourgues</strong></h1>
+          <h4 className="md:ml-4"><strong>Développeur frontend junior</strong></h4>
           <div className="">
             <a
               href="https://github.com/Gorrog87"
