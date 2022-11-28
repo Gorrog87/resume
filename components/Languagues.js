@@ -3,7 +3,7 @@
 
 export default function Languages() {
   return (
-    <div className="md:justify-evenly">
+    <div className="md:flex md:justify-evenly">
       <div className="text-center">
         <h3 className="my-20 underline underline-offset-8 text-center">
           <strong>Langues</strong>

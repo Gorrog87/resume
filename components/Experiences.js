@@ -4,7 +4,7 @@ export default function Experiences() {
       <h3 className="my-20 underline underline-offset-8 text-center">
         <strong>Dernière expérience professionnelle</strong>
       </h3>
-      <div className="text-center">
+      <div className="text-center mb-5">
         <h5 className="my-5">Responsable adjoint - Décathlon Wagram (Paris)</h5>
         <p>
           <em>(octobre 2016 - mars 2022)</em>
