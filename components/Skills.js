@@ -3,9 +3,9 @@
 export default function Skills() {
   return (
     <>
-      <div className="md flex justify-evenly">
+      <div className="md:justify-evenly">
         <div className="text-center mb-10">
-          <h3 className="my-20 underline underline-offset-8 text-center">Hard Skills</h3>
+          <h3 className="my-20 underline underline-offset-8 text-center"><strong>Hard Skills</strong></h3>
 
           <div className="">
             {/* <FontAwesomeIcon
@@ -80,7 +80,7 @@ export default function Skills() {
           </div>
         </div>
         <div>
-          <h3 className="my-20 underline underline-offset-8 text-center">Soft Skills</h3>
+          <h3 className="my-20 underline underline-offset-8 text-center"><strong>Soft Skills</strong></h3>
           <div className="text-center mb-10">
             <div className="">
               {/* <FontAwesomeIcon icon="fas fa-bullseye" className="iconHover" /> */}

@@ -3,10 +3,10 @@
 
 export default function Languages() {
   return (
-    <div className="">
-      <div className="">
-        <h3 className="" id="">
-          Langues
+    <div className="md:justify-evenly">
+      <div className="text-center">
+        <h3 className="my-20 underline underline-offset-8 text-center">
+          <strong>Langues</strong>
         </h3>
         <div className="">
           {/* <FR title="Fr" id="flag" className="" /> */}
@@ -21,8 +21,9 @@ export default function Languages() {
           <p>Espagnol : B1</p>
         </div>
       </div>
-      <div className="">
-        <h3 className="">Hobbies</h3>
+      <div className="text-center">
+        <h3 className="my-20 underline underline-offset-8 text-center"><strong>Hobbies</strong> 
+        </h3>
         <div className="">
           {/* <FontAwesomeIcon icon="fas fa-golf-ball" className="" /> */}
           <p>Golf : hcp 3</p>
