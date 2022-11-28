@@ -3,9 +3,9 @@
 export default function Skills() {
   return (
     <>
-      <div className="">
-        <div className="">
-          <h3 className="">Hard Skills</h3>
+      <div className="md flex justify-evenly">
+        <div className="text-center mb-10">
+          <h3 className="my-20 underline underline-offset-8 text-center">Hard Skills</h3>
 
           <div className="">
             {/* <FontAwesomeIcon
@@ -13,7 +13,7 @@ export default function Skills() {
             id="html"
             className="iconHover"
           /> */}
-            <p>HTML</p>
+            <p className="">HTML</p>
           </div>
 
           <div className="">
@@ -80,8 +80,8 @@ export default function Skills() {
           </div>
         </div>
         <div>
-          <h3 className="">Soft Skills</h3>
-          <div className="">
+          <h3 className="my-20 underline underline-offset-8 text-center">Soft Skills</h3>
+          <div className="text-center mb-10">
             <div className="">
               {/* <FontAwesomeIcon icon="fas fa-bullseye" className="iconHover" /> */}
               <p>Cibler les demandes client</p>
