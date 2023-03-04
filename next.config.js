@@ -4,3 +4,9 @@ const nextConfig = {
 }
 
 module.exports = nextConfig
+
+// module.exports = function (api) {
+//   return {
+//     plugins: ['macros'],
+//   }
+// }
