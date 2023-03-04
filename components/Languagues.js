@@ -1,5 +1,4 @@
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; #TODO --> Adapt the icons & flags with Tailwind
-// import { FR, GB, ES } from "country-flag-icons/react/3x2";
+
 
 export default function Languages() {
   return (

@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
 
 * {
   box-sizing: border-box;
@@ -19,6 +20,31 @@ body {
     rgba(244, 255, 236, 1) 47%,
     rgba(246, 244, 232, 1) 100%
   );
+}
+
+.domain-name{
+  font-family: 'Paytone One', sans-serif;
+  position: relative;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 2em;
+  letter-spacing: 4px;
+  overflow: hidden;
+  background: linear-gradient(90deg, #000, #fff, #000);
+  background-repeat: inherit;
+  background-size: 80%;
+  animation: animate 13s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
 }
 
 a {
@@ -42,19 +68,12 @@ a i {
 }
 
 .background-resume {
-  /* background-color: #2e2e2e; */
-  /* background-image: url("data:image/svg+xml,%3Csvg width='12' height='24' viewBox='0 0 12 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23141414' fill-opacity='0.2'%3E%3Cpath d='M2 0h2v12H2V0zm1 20c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM9 8c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zm-1 4h2v12H8V12z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"); */
   border-radius: 6px;
   padding: 2%;
 }
 
 .logo-formation {
   width: fit-content;
-}
-
-.social-link{
-  
-
 }
 
 

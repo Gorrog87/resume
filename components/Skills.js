@@ -1,4 +1,3 @@
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; #TODO --> import some fontawesome icons or others icons with tailwind acceptance
 
 export default function Skills() {
   return (
