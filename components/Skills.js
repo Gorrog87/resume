@@ -23,6 +23,9 @@ export default function Skills() {
         <img src="./images/ruby-logo.png" alt="html-icon" className="code-icon"/>
       </div>
       <div className="flex md:justify-center">
+        <img src="./images/github.png" alt="html-icon" className="code-icon"/>
+      </div>
+      <div className="flex md:justify-center">
         <img src="./images/server.png" alt="html-icon" className="code-icon"/>
       </div>
 
