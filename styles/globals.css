@@ -74,12 +74,44 @@ a i {
 }
 
 .code-icon{
-  height: 200px;
+  margin-bottom: 5em;
+  height: 150px;
+  padding: 0 2em 0 2em;
 }
 
-@media only screen and (min-width: 480px) and (max-width:640px) {
-  .code-icon{
-    height: 100px;
+.bio {
+  margin: 0 14em 0 14em;
+  padding: 0 3em 0 3em;
+  width: 600px;
+  height: 300px;
+  overflow: scroll;
+  text-align: center;
+}
+
+.resume{
+  
+}
+
+@media only screen and (min-width: 320px) and (max-width:480px) {
+
+  .code-icon-wraper{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-wrap: wrap;
+    flex-flow: column;
+  }
+
+  .bio {
+    margin: unset;
+    width: 600px;
+    height: 300px;
+    overflow: scroll;
+    text-align: center;
+  }
+
+  .a-propos{
+    text-align: center;
   }
 }
 

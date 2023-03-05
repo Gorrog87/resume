@@ -3,7 +3,7 @@
 export default function Header() {
   return (
     <>
-      <div className="text-center my-5 md:flex md:items-center md:justify-center pt-5">
+      <div className="text-center my-5 md:flex md:items-center md:justify-center pt-5 header">
         <div className="flex justify-center">
           <img
             className="rounded mr-5"

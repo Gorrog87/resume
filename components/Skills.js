@@ -1,12 +1,12 @@
 export default function Skills() {
   return (
     <>
-      <h2 className="text-center ">Hard Skills</h2>
-      <div className="flex md:justify-center">
-        <img src="./images/html.png" alt="html-icon" className="code-icon"/>
+      <h2 className="text-center my-20 text-3xl">Hard Skills</h2>
+      <div className="flex md:justify-center code-icon-wraper">
+        <img src="./images/html-logo.png" alt="html-icon" className="code-icon"/>
       </div>
       <div className="flex md:justify-center">
-        <img src="./images/css3.png" alt="css-icon" className="code-icon"/>
+        <img src="./images/css-logo.png" alt="css-icon" className="code-icon"/>
         <img src="./images/bootstrap-framework-logo.png" alt="html-icon" className="code-icon"/>
         <img src="./images/tailwind-css.png" alt="tailwind-icon" className="code-icon"/>
       </div>
