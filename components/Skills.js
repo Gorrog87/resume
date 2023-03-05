@@ -2,7 +2,7 @@ export default function Skills() {
   return (
     <>
       <h2 className="text-center my-20 text-3xl">Hard Skills</h2>
-      <div className="flex md:justify-center code-icon-wraper">
+      <div className="flex md:justify-center">
         <img
           src="./images/html-logo.png"
           alt="html-icon"
@@ -13,7 +13,7 @@ export default function Skills() {
         <img src="./images/css-logo.png" alt="css-icon" className="code-icon" />
         <img
           src="./images/bootstrap-framework-logo.png"
-          alt="html-icon"
+          alt="bootsrtap-icon"
           className="code-icon"
         />
         <img
