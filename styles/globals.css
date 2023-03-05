@@ -34,6 +34,7 @@ body {
   background-repeat: inherit;
   background-size: 80%;
   animation: animate 13s linear infinite;
+  background-clip: initial;
   -webkit-background-clip: text;
   -webkit-text-fill-color: rgba(255, 255, 255, 0);
 }
@@ -74,6 +75,10 @@ a i {
 
 .logo-formation {
   width: fit-content;
+}
+
+.code-icon{
+  height: 500px;
 }
 
 
