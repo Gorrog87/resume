@@ -39,7 +39,7 @@ export default function Resume() {
           Back to homepage
         </Link>
       </p>
-      <div className="background-resume m-5">
+      <div className="m-5">
         <Header />
         <Bio />
         <Formation />

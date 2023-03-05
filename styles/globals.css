@@ -68,20 +68,20 @@ a i {
   padding-top: 1em;
 }
 
-.background-resume {
-  border-radius: 6px;
-  padding: 2%;
-}
 
 .logo-formation {
   width: fit-content;
 }
 
 .code-icon{
-  height: 500px;
+  height: 200px;
 }
 
-
+@media only screen and (min-width: 480px) and (max-width:640px) {
+  .code-icon{
+    height: 100px;
+  }
+}
 
 /* @media (prefers-color-scheme: dark) {
   html {
