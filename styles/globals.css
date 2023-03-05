@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Paytone+One&display=swap");
 
 * {
   box-sizing: border-box;
@@ -22,8 +22,8 @@ body {
   );
 }
 
-.domain-name{
-  font-family: 'Paytone One', sans-serif;
+.domain-name {
+  font-family: "Paytone One", sans-serif;
   position: relative;
   font-family: sans-serif;
   text-transform: uppercase;
@@ -49,52 +49,69 @@ body {
 }
 
 a {
-  color: #77C18B;
+  color: #77c18b;
   text-decoration: none;
 }
 
-a:hover{
-  color: #34543C;
+a:hover {
+  color: #34543c;
 }
 
 a i {
   margin: 2em;
 }
 
-
-.homepage-link{
+.homepage-link {
   position: sticky;
   top: 0px;
   padding-top: 1em;
 }
 
-
 .logo-formation {
   width: fit-content;
 }
 
-.code-icon{
+.code-icon {
   margin-bottom: 5em;
   height: 150px;
   padding: 0 2em 0 2em;
 }
 
+.code-icon:hover {
+  margin-bottom: 5em;
+  height: 150px;
+  padding: 0 2em 0 2em;
+  animation-name: spin;
+  animation-duration: 800ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  transform: rotate(3deg);
+  transform: rotate(0.3rad);
+  transform: rotate(3grad);
+  transform: rotate(0.03turn);
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 .bio {
   margin: 0 14em 0 14em;
   padding: 0 3em 0 3em;
-  width: 600px;
-  height: 300px;
   overflow: scroll;
   text-align: center;
 }
 
-.resume{
-  
+.resume {
 }
 
-@media only screen and (min-width: 320px) and (max-width:480px) {
-
-  .code-icon-wraper{
+@media only screen and (min-width: 320px) and (max-width: 425px) {
+  .code-icon-wraper {
     display: flex;
     justify-content: center;
     justify-items: center;
@@ -103,6 +120,7 @@ a i {
   }
 
   .bio {
+    padding: unset;
     margin: unset;
     width: 600px;
     height: 300px;
@@ -110,8 +128,7 @@ a i {
     text-align: center;
   }
 
-  .a-propos{
-    text-align: center;
+  .a-propos {
   }
 }
 
