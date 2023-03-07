@@ -32,7 +32,7 @@ export default function Header() {
               target="_blank"
               className=""
               id=""
-            ><i class="ri-linkedin-box-fill"></i>
+            ><i className="ri-linkedin-box-fill"></i>
             </a>
             <a
               href="https://troopl.com/gourguesmaxime"

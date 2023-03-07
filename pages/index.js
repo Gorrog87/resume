@@ -4,13 +4,10 @@ import styles from "../styles/Home.module.css";
 import Link from "next/link";
 // import DateTime from "../components/DateTime";  #TODO --> Error message "hydratation"
 
-
 export default function Home() {
-  
-
   return (
-    
-    <div className={styles.container}>
+    // <div className={styles.container}>
+    <div>
       <Head>
         {/* <title>Create Next App</title> */}
         <title>Maxime Gourgues</title>
@@ -19,7 +16,9 @@ export default function Home() {
       </Head>
       {/* <DateTime /> */}
       <div>
-        <h1 className="text-center mt-20 fw-bold text-7xl domain-name">MAXIME-GOURGUES.COM</h1>
+        <h1 className="text-center mt-20 fw-bold text-7xl domain-name">
+          MAXIME-GOURGUES.COM
+        </h1>
       </div>
       <div className="text-center mt-20 text-2xl">
         <p>
