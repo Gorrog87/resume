@@ -2,7 +2,7 @@ export default function Bio() {
   return (
     <>
       <div className="text-center mb-20">
-        <h4 className="my-20 underline underline-offset-8 a-propos">
+        <h4 className="my-20 text-3xl a-propos">
           <strong>A propos</strong>
         </h4>
         <div className="bio">

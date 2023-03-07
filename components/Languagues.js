@@ -4,9 +4,9 @@ export default function Languages() {
   return (
     <div className="md:flex md:justify-evenly">
       <div className="text-center">
-        <h3 className="my-20 underline underline-offset-8 text-center">
+        <h4 className="my-20 text-3xl text-center">
           <strong>Langues</strong>
-        </h3>
+        </h4>
         <div className="">
           {/* <FR title="Fr" id="flag" className="" /> */}
           <p>Français : Natal</p>
@@ -21,8 +21,8 @@ export default function Languages() {
         </div>
       </div>
       <div className="text-center">
-        <h3 className="my-20 underline underline-offset-8 text-center"><strong>Hobbies</strong> 
-        </h3>
+        <h4 className="my-20 text-3xl text-center"><strong>Hobbies</strong> 
+        </h4>
         <div className="">
           {/* <FontAwesomeIcon icon="fas fa-golf-ball" className="" /> */}
           <p>Golf : hcp 3</p>

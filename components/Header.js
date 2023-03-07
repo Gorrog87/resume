@@ -6,7 +6,7 @@ export default function Header() {
       <div className="text-center my-5 md:flex md:items-center md:justify-center pt-5 header">
         <div className="flex justify-center">
           <img
-            className="rounded mr-5"
+            className="rounded mr-5 image"
             id="picture"
             src="https://avatars.githubusercontent.com/u/88392395?v=4"
             alt="Maxime Gourgues"
@@ -15,7 +15,7 @@ export default function Header() {
           />
         </div>
 
-        <div className="">
+        <div className="name-and-links">
           <h1><strong>Maxime Gourgues</strong></h1>
           <h4 className="md:ml-4"><strong>Développeur frontend junior</strong></h4>
           <div className="">

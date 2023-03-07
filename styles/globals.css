@@ -68,6 +68,12 @@ a i {
   padding-top: 1em;
 }
 
+.image {
+  box-shadow: 1px 7px 20px -12px;
+  border-radius: 1.25rem;
+}
+
+
 .logo-formation {
   width: fit-content;
 }
@@ -129,6 +135,10 @@ a i {
     height: 200px;
     overflow: scroll;
     text-align: center;
+  }
+
+  .name-and-links{
+    margin-top: 1em;
   }
 
 

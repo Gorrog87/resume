@@ -2,9 +2,9 @@ export default function Formation() {
   return (
     <>
       <div className="mb-10">
-        <h3 className="text-center my-20 underline underline-offset-8 ">
+        <h4 className="text-center my-20 text-3xl">
           <strong>Formations</strong>
-        </h3>
+        </h4>
         <div className="flex justify-center">
           <a
             href="https://openclassrooms.com/fr/"
