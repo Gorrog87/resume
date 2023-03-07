@@ -20,7 +20,7 @@ export default function Home() {
           MAXIME-GOURGUES.COM
         </h1>
       </div>
-      <div className="text-center mt-20 text-2xl">
+      <div className="text-center mt-20 text-2xl text-intro">
         <p>
           Hi! I'm Maxime, a new web developer.<br></br>
           Here is my website where i practice my programming skills like

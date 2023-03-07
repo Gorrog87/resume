@@ -15,7 +15,7 @@ export default function Header() {
           />
         </div>
 
-        <div className="name-and-links">
+        <div className="shadowed">
           <h1><strong>Maxime Gourgues</strong></h1>
           <h4 className="md:ml-4"><strong>Développeur frontend junior</strong></h4>
           <div className="">
