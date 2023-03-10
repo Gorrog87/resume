@@ -72,6 +72,7 @@ a i {
   justify-content: center;
   align-items: center;
   margin: 0 2em 0 2em;
+  gap: 2em;
 }
 
 .logo-formation {
@@ -129,7 +130,7 @@ a i {
 
   .bio {
     padding: unset;
-    margin: unset;
+    margin: 2em;
     width: auto;
     height: 200px;
     overflow: scroll;
@@ -143,6 +144,10 @@ a i {
   .text-intro {
     margin: 3em 2em;
     font-size: 10vw;
+  }
+
+  .ri-github-fill {
+    height: 4vh;
   }
 
 }
