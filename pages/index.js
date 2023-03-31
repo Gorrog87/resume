@@ -17,7 +17,7 @@ export default function Home() {
       {/* <DateTime /> */}
       <div>
         <h1 className="text-center mt-20 fw-bold text-7xl domain-name">
-          MAXIME-GOURGUES.COM
+          MAXIMEGOURGUES.COM
         </h1>
       </div>
       <div className="text-center mt-20 text-2xl text-intro">
